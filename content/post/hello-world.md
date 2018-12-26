@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 author: "jroll"
-tags: ["intro"]
+tags: []
 date: 2018-12-26T07:40:25-05:00
 ---
 
