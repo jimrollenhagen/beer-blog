@@ -1,0 +1,58 @@
+baseURL = "https://beer.jroll.io"
+languageCode = "en"
+title = "Hidden Lake Brewing"
+theme = "hugo-nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Disqus Username
+#disqusShortname = "disqus_shortname"
+
+# Google Analytics UA number
+#googleAnalytics = "UA-XXXXXXXX-X"
+
+# Copyright of your post
+copyright = "© Jim Rollenhagen"
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+# Add your own params here
+[params]
+  author = "Jim Rollenhagen"
+  bg = "images/grey-prism.svg"
+  avatar = "images/hlb/avatar.jpg"
+  favicon = "images/hlb/favicon.ico"
+  favicon16 = "images/hlb/favicon-16x16.png"
+  favicon32 = "images/hlb/favicon-32x32.png"
+  iconWindows = "images/hlb/mstile-310x310.png"
+  iconApple = "images/hlb/apple-touch-icon-152x152.png"
+  iconAndroid = "images/hlb/apple-touch-icon-152x152.png"
+  seotitle = "Hidden Lake Brewing"
+  subtitle = "Small batch craft beer since 2017"
+  description = "Hidden Lake Brewing - small batch craft beer since 2017."
+  paginate = 10
+
+  # Choose your social networks
+  email = "jim@jimrollenhagen.com"
+  #twitter = "twitter_username"
+  # instagram = "instagram_username"
+
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  #googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+
+  # Bing Webmaster
+  # https://www.bing.com/toolbox/webmaster/
+  #msValidate = "22596E34341DD1D17D6022C44647E587"
